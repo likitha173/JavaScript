@@ -159,3 +159,51 @@ let myAge = 21;
 
 let result = myAge >= 18 ? "adult" : "NOT adult";
 console.log("I am ", result);
+
+
+// switch
+const fruit = "Papayas";
+switch (fruit) {
+    case "Oranges" :
+        console.log(fruit, " are 80 rs/KG");
+        break;
+    case "Mangos" :
+    case "Papayas" :
+        console.log(fruit, " are 100 rs/KG");
+        break;
+    default: 
+        console.log("Sorry, we are out of", fruit)
+}
+
+// alert("Hello");
+
+// let name = prompt("Enter you full name: ")
+// console.log(name);
+
+// let num = prompt("Enter a Number");
+let num = 5;
+
+if(num%5 === 0) {
+    console.log(num, "is multiple of 5");
+} else {
+    console.log(num, "is NOT a multiple of 5");
+}
+
+let marks = prompt("Enter a your marks");
+let grade;
+
+if(100>=marks && 90<=marks){
+    grade = "A";
+} else if(89>=marks && 70<=marks){
+    grade = "B";
+}  else if(60>=marks && 69<=marks){
+    grade = "C";
+}  else if(59>=marks && 50<=marks){
+    grade = "D";
+}  else if(49>=marks && 0<=marks){
+    grade = "F";
+} else{
+    console.log("Enter Vaild Marks");
+}
+console.log("Your grade was", grade);
+
