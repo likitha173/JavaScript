@@ -14,3 +14,19 @@ button {
 .heading4 {
     color: brown;
 }
+
+.box{
+    height: 10rem;
+    width: 10rem;
+    border: 1x solid black;
+    margin: 1rem;
+    text-align: center;
+    background: aquamarine;
+}
+
+.content {
+    color: yellow;
+}
+.otherClass {
+    background: azure;
+}
